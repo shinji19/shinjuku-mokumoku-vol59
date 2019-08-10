@@ -78,6 +78,7 @@ docker run --rm -v `pwd`/book:/book vvakame/review:2.5 /bin/sh -c "cd /book && r
 ```
 
 - 構成
+
 https://docs.google.com/document/d/1-ADEAEZsLvU7bKpa66tFDPSmJ89La3bz37CYyfKVglg/edit
 
 
