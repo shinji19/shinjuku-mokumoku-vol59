@@ -13,8 +13,9 @@ FROM python:3.7.4
 RUN pip install ccxt==1.18.1041 pylint==2.3.1 autopep8==1.4.4
 ```
 
-### 技術検証
 ---
+
+### 技術検証
 
 
 ```docker-compose
@@ -68,8 +69,9 @@ except Exception as e:  # reraise all other exceptions
 ---
 
 
-### 技術検証
+### 執筆
 
+https://docs.google.com/document/d/1-ADEAEZsLvU7bKpa66tFDPSmJ89La3bz37CYyfKVglg/edit
 
 ---
 
