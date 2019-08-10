@@ -13,6 +13,10 @@ FROM python:3.7.4
 RUN pip install ccxt==1.18.1041 pylint==2.3.1 autopep8==1.4.4
 ```
 
+### 技術検証
+---
+
+
 ```docker-compose
 version: '3.7'
 services:
@@ -23,6 +27,8 @@ services:
       - ./:/opt/ccxt-guidebook
     command: tail -f /dev/null
 ```
+
+---
 
 
 ### 技術検証
