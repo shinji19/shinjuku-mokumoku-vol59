@@ -5,7 +5,29 @@
 ---
 
 
-### ccxt技術検証
+### 技術検証
+
+- Dockerfile
+```dockerfile
+FROM python:3.7.4
+
+RUN pip install ccxt==1.18.1041 pylint==2.3.1 autopep8==1.4.4
+```
+
+- docker-compose.yml
+```docker-compose
+version: '3.7'
+services:
+  python:
+    build: ./
+    working_dir: /opt/ccxt-guidebook
+    volumes:
+      - ./:/opt/ccxt-guidebook
+    command: tail -f /dev/null
+```
+
+
+### 技術検証
 
 ```python
 import time
@@ -42,7 +64,7 @@ except Exception as e:  # reraise all other exceptions
 ---
 
 
-### 3枚目のスライド
+### 技術検証
 
 
 ---
