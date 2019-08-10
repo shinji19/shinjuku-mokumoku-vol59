@@ -7,14 +7,12 @@
 
 ### 技術検証
 
-- Dockerfile
 ```dockerfile
 FROM python:3.7.4
 
 RUN pip install ccxt==1.18.1041 pylint==2.3.1 autopep8==1.4.4
 ```
 
-- docker-compose.yml
 ```docker-compose
 version: '3.7'
 services:
